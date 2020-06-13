@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SCP1" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SCP1>
+    <SCPRATTR>
+     <ID>ZTEST_BCSET</ID>
+     <TYPE>TMV</TYPE>
+     <REFTYPE>TRAN</REFTYPE>
+     <REFNAME>NPLK900075</REFNAME>
+     <ORGID>/CUSTOMER/</ORGID>
+     <COMPONENT>SAP_BASIS</COMPONENT>
+     <MINRELEASE>752</MINRELEASE>
+     <MAXRELEASE>*</MAXRELEASE>
+    </SCPRATTR>
+    <SCPRTEXT>
+     <SCPRTEXT>
+      <LANGU>E</LANGU>
+      <ID>ZTEST_BCSET</ID>
+      <VERSION>N</VERSION>
+      <TEXT>Test BC Set</TEXT>
+     </SCPRTEXT>
+    </SCPRTEXT>
+    <SCPRVALS>
+     <SCPRVALS>
+      <ID>ZTEST_BCSET</ID>
+      <VERSION>N</VERSION>
+      <TABLENAME>ZTEST_BCSET</TABLENAME>
+      <RECNUMBER>1</RECNUMBER>
+      <FIELDNAME>KEYFIELD</FIELDNAME>
+      <FLAG>FKY</FLAG>
+      <VALUE>AB</VALUE>
+     </SCPRVALS>
+     <SCPRVALS>
+      <ID>ZTEST_BCSET</ID>
+      <VERSION>N</VERSION>
+      <TABLENAME>ZTEST_BCSET</TABLENAME>
+      <RECNUMBER>1</RECNUMBER>
+      <FIELDNAME>MANDT</FIELDNAME>
+      <FLAG>FKY</FLAG>
+      <VALUE>001</VALUE>
+     </SCPRVALS>
+     <SCPRVALS>
+      <ID>ZTEST_BCSET</ID>
+      <VERSION>N</VERSION>
+      <TABLENAME>ZTEST_BCSET</TABLENAME>
+      <RECNUMBER>1</RECNUMBER>
+      <FIELDNAME>NUMC_FIELD</FIELDNAME>
+      <FLAG>USE</FLAG>
+      <VALUE>0010</VALUE>
+     </SCPRVALS>
+    </SCPRVALS>
+    <SCPRRECA>
+     <SCPRRECA>
+      <ID>ZTEST_BCSET</ID>
+      <VERSION>N</VERSION>
+      <TABLENAME>ZTEST_BCSET</TABLENAME>
+      <RECNUMBER>1</RECNUMBER>
+      <OBJECTNAME>ZTEST_BCSET</OBJECTNAME>
+      <OBJECTTYPE>S</OBJECTTYPE>
+     </SCPRRECA>
+    </SCPRRECA>
+   </SCP1>
+  </asx:values>
+ </asx:abap>
+</abapGit>
